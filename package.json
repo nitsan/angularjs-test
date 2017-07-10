@@ -1,0 +1,24 @@
+{
+  "name": "angularjs-test",
+  "version": "1.0.0",
+  "description": "angularjs test",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitsan/angularjs-test.git"
+  },
+  "author": "Nitsan Zohar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitsan/angularjs-test/issues"
+  },
+  "homepage": "https://github.com/nitsan/angularjs-test#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "path": "^0.12.7"
+  }
+}

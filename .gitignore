@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+# dependencies
+/node_modules
+# IDEs and editors
+/.idea
+npm-debug.log
