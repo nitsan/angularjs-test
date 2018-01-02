@@ -1,9 +1,9 @@
 'use strict';
 
-var appModule = angular.module('appModule', []);
-appModule.component('root', {
-    template: '<h1>Home</h1>' +
-    '<p>Hello, {{ $ctrl.user.name }} !</p>',
+const appModule = angular.module('appModule');
+
+appModule.component('appRoot', {
+    templateUrl: 'src/app/components/root/root.html',
     controller: rootController
 });
 
