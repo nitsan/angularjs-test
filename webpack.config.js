@@ -9,7 +9,12 @@ const config = {
     },
     plugins: [
         new HtmlWebpackPlugin({template: './src/index.html'})
-    ]
+    ],
+    devServer: {
+        proxy: {
+            "*": "http://localhost:3000"
+        }
+    }
 };
 
 module.exports = config;
