@@ -7,6 +7,11 @@ appModule.component('appRoot', {
     controller: rootController
 });
 
-function rootController() {
-    this.user = {name: 'Messi'};
+function rootController(rootService) {
+    this.user;
+
+    this.$onInit = function () {
+        console.log('$onInit');
+        this.user = rootService.getUser();
+    }
 }
